@@ -1,8 +1,55 @@
 @charset "UTF-8";
-    header a {color: black; font-family: serif;text-decoration: none;}
-    small {color: black;font-family: serif;}
-    header {border: solid 3px black;border-collapse: collapse;text-align: right;width: 90%;margin: 0 auto;}
-    h1 {border: solid 3px black;width: 90%;margin: 0 auto;text-align: center;border-bottom: none;border-top: none;}
-    div {border:solid 3px black;width:90%;margin: 0 auto;text-align: center;border-top: none;height: 700px;display:flex}
-    footer {border: solid 3px black;width: 90%;margin: 0 auto;text-align: center;border-top: none;}
-    img {width: 250px;vertical-align: bottom ;flex-direction: row;margin: 5%;align-items: flex-end;}
+
+header a {
+    color: black;
+    font-family: serif;
+    text-decoration: none;
+}
+
+small {
+    color: black;
+    font-family: serif;
+}
+
+header {
+    border: solid 3px black;
+    border-collapse: collapse;
+    text-align: right;
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1 {
+    border: solid 3px black;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: none;
+    border-top: none;
+}
+
+div {
+    border: solid 3px black;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    border-top: none;
+    height: 700px;
+    display: flex
+}
+
+footer {
+    border: solid 3px black;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    border-top: none;
+}
+
+img {
+    width: 250px;
+    vertical-align: bottom;
+    flex-direction: row;
+    margin: 5%;
+    align-items: flex-end;
+}
